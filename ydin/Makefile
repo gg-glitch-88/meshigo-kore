@@ -19,9 +19,9 @@ GIT_COMMIT := $(shell git rev-parse --short HEAD 2>/dev/null || echo "dev")
 VERSION    := $(shell git describe --tags --always 2>/dev/null || echo "0.0.1")
 BUILD_TIME := $(shell date -u +"%Y-%m-%dT%H:%M:%SZ")
 
-LDFLAGS += -X github.com/meshcommons/meshcommons/internal/version.Commit=$(GIT_COMMIT)
-LDFLAGS += -X github.com/meshcommons/meshcommons/internal/version.Version=$(VERSION)
-LDFLAGS += -X github.com/meshcommons/meshcommons/internal/version.BuildTime=$(BUILD_TIME)
+LDFLAGS += -X github.com/gg-glitch-88/meshigo-kore/internal/version.Commit=$(GIT_COMMIT)
+LDFLAGS += -X github.com/gg-glitch-88/meshigo-kore/internal/version.Version=$(VERSION)
+LDFLAGS += -X github.com/gg-glitch-88/meshigo-kore/internal/version.BuildTime=$(BUILD_TIME)
 
 .PHONY: all build test lint clean run proto fmt vet tidy install-deps coverage
 

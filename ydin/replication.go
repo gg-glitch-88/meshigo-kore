@@ -10,8 +10,8 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/meshcommons/meshcommons/internal/config"
-	"github.com/meshcommons/meshcommons/internal/store"
+	"github.com/gg-glitch-88/meshigo-kore/ydin/config"
+	"github.com/gg-glitch-88/meshigo-kore/ydin/store"
 )
 
 // Peer represents a known replication peer.

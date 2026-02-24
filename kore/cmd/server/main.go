@@ -5,8 +5,8 @@ import (
 	"log/slog"
 	"os"
 
-	"github.com/gg-glitch-88/meshigo-kore/internal/adapters"
-	"github.com/gg-glitch-88/meshigo-kore/internal/domain"
+	"github.com/gg-glitch-88/meshigo-kore/kore/internal/adapters"
+	"github.com/gg-glitch-88/meshigo-kore/kore/internal/domain"
 )
 
 func main() {
